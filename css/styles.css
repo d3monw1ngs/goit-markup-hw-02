@@ -1,16 +1,53 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4FD; 
+    max-width: 1440px;
+}
+
+p {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
 }
 
 a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
 
-h4.span {
-    color: #4D5AE5;
-    font-family: raleway; 
+h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+h4 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -19,18 +56,102 @@ h4.span {
     text-transform: uppercase;
 }
 
+.heading a {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.heading .logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.navigation-bar li {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.contact-info li {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+
 .banner {
-    background: #2E2F42;
-    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .banner-text {
+    color: var(--WHITE, #FFF);
+    text-align: center;
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; 
-    text-align: center;
+    line-height: 60px;
+    letter-spacing: 1.12px;
     text-transform: uppercase;
-    color: var(--WHITE, #FFF);
+}
+
+.btn {
+    background: var(--IRIS, #4D5AE5);
+    color: #fff;
+}
+
+.team h4 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.team p {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+   
+}
+
+.footer h4 {
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.footer p {
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.footer .logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
