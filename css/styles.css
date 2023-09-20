@@ -11,7 +11,6 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
     letter-spacing: 0.32px;
 }
 
@@ -21,6 +20,7 @@ a {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 h2 {
@@ -30,7 +30,6 @@ h2 {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -41,7 +40,6 @@ h3 {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.4px;
 }
 
@@ -51,7 +49,6 @@ h4 {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -66,7 +63,6 @@ h4 {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -77,8 +73,11 @@ h4 {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.navigation-bar .studio {
+    color: var(--IRIS, #4D5AE5);
 }
 
 .contact-info li {
@@ -87,7 +86,6 @@ h4 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
     letter-spacing: 0.32px;
 }
 
@@ -102,7 +100,6 @@ h4 {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
     letter-spacing: 1.12px;
     text-transform: uppercase;
 }
@@ -110,6 +107,7 @@ h4 {
 .btn {
     background: var(--IRIS, #4D5AE5);
     color: #fff;
+    border: none;
 }
 
 .team h4 {
@@ -118,7 +116,6 @@ h4 {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.4px;
 }
 
@@ -128,7 +125,6 @@ h4 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
@@ -151,7 +147,6 @@ h4 {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
