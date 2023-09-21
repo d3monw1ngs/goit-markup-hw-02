@@ -1,16 +1,14 @@
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #F4F4FD; 
     max-width: 1440px;
 }
 
+/* GENERAL STYLES */
 p {
     color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
@@ -26,20 +24,18 @@ ul {
 h2 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
+    line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
 h3 {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0.4px;
 }
 
@@ -47,12 +43,12 @@ h4 {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
+    line-height: 24px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-
+/* HEADING AND NAVIGATION BAR STYLES */
 .heading a {
     color: var(--NAVY-BLUE, #2E2F42);
 }
@@ -61,18 +57,17 @@ h4 {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
+    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .navigation-bar li {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
+    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
@@ -82,13 +77,17 @@ h4 {
 
 .contact-info li {
     color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.32px;
 }
 
+.link:hover {
+    color: var(--IRIS, #4D5AE5);
+}
+
+/* BANNER STYLES AND BUTTON WITH PORTFOLIO BUTTONS*/
 .banner {
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -96,9 +95,7 @@ h4 {
 .banner-text {
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     letter-spacing: 1.12px;
     text-transform: uppercase;
@@ -110,24 +107,31 @@ h4 {
     border: none;
 }
 
+.filter-button {
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.64px;
+}
+
+/* OUR TEAM STYLES */
 .team h4 {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     letter-spacing: 0.4px;
 }
 
 .team p {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: 0.32px;
 }
 
+/* FOOTER STYLES */
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
    
@@ -145,7 +149,6 @@ h4 {
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     letter-spacing: 0.54px;
     text-transform: uppercase;
